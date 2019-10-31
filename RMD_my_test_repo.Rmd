@@ -19,3 +19,9 @@ ggplot(mpg)+
 This is a test R markdown file, make sure that the graph is visible online. 
 
 Another change from the creator, collaborator pulls 
+
+```{r}
+ggplot(mpg)+ 
+  geom_point(aes(x=drv, y=hwy))
+```
+
