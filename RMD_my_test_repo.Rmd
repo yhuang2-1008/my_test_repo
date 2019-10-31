@@ -3,13 +3,17 @@ title: "my_test_repo"
 output: html_document
 ---
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 library(broom)
 library(moderndive)
 library(tidyverse)
 library(openintro)
+```
+
+```{r}
 ggplot(mpg)+ 
   geom_jitter(aes(x=drv, y=hwy))
 ```
+
 
 This is a test R markdown file, make sure that the graph is visible online. 
