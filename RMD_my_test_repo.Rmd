@@ -25,6 +25,11 @@ ggplot(mpg)+
   geom_point(aes(x=drv, y=hwy))
 ```
 
+```{r}
+ggplot(mpg) +
+  geom_density(aes(x = hwy))
+```
+
 tyring to make a change at the same time 
 
 fejaigeaghega
